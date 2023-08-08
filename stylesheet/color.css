@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*Цвет вокруг*/
+body.s_layout_fixed {
+	background-color: #35e1a4;
+	background-image: url(../images/texture_2.png);
+}
+
+/*центральный фон*/
+#intro, #contact_form_icon {
+	background-color: #28c2a9;
+}
+
+
+/*Цвет текста внутри фона*/
+#intro, #breadcrumbs a {
+	color: #000000;
+}
+/*Наши контакты*/
+#intro h1, #intro h1 *, #intro h2, #intro h2 * {
+	color: #000000;
+ ~background-color: #def5d0;
+}
+#intro .s_rating {
+ ~background-color: #def5d0;
+}
+/*Цена */
+.s_price 
+{
+	background-color: #35a8e1;
+}
+
+
+
+/*****************************************************/
+/******   S E L E C T I O N    ***********************/
+/*****************************************************/
+*::-moz-selection {
+ background-color: #e426ee;
+}
+*::-webkit-selection {
+ background-color: #ff9900;
+}
+*::selection {
+ background-color: #ff9900;
+}
